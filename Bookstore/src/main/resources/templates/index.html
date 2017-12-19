@@ -8,59 +8,56 @@
    
 
     <title>Navbar Template for Bootstrap</title>
-
+    <link href="/css/non-responsive.css" rel="stylesheet" />
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet"/>
 
-    
-
     <!-- Custom styles for this template -->
     <link href="/css/style.css" rel="stylesheet"/>
-
+    <link rel="icon" href="/image/applie-touch-icon.png" />
 
   </head>
 
   <body>
 
-    
-
-      <!-- Static navbar -->
+   
+      <div class="page-top"
+			style="width: 100%; height: 20px; background-color: #f46b42;"></div>
+     <!--  Static navbar -->
       <nav class="navbar navbar-default navbar-inverse">
         <div class="container-fluid">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Project name</a>
+          
+            <a class="navbar-brand" href="#">FAN'S BOOKSTORE</a>
           </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
+          <div id="navbar" >
+            <ul class="nav navbar-nav navbar-left">
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BOOKS <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
+                  <li><a href="#">Browse the bookshelf</a></li>
+                  <li><a href="#">Store hours &#38; Directions</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  
                 </ul>
               </li>
+              <li>
+                  <form class="navbar-form" >
+							<div class="form-group">
+								<input type="text" name="keyword" class="form-control" placeholder="Book title" />
+									
+							</div>
+							<button type="submit" class="btn btn-default">Search</button>
+				</form>
+				</li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
-              <li><a href="../navbar-static-top/">Static top</a></li>
-              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+              <li><a href="#">SHOPPING CART</a></li>
+              <li><a href="#">MY ACCOUNT</a></li>
+              <li><a href="#">LOGOUT</a></li>
             </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
+          </div>/.nav-collapse
+        </div>/.container-fluid
       </nav>
 
    
@@ -68,13 +65,13 @@
    
    <div class="container">
 		<div class="row banner">
-			<!-- carousel -->
+			carousel
 			<div class="col-xs-8">
 				<div class="panel panel-default" style="margin-top: 20px;">
 					<div class="panel-body">
 						<div id="carousel-example-generic" class="carousel slide"
 							data-ride="carousel">
-							<!-- Indicators -->
+							Indicators
 							<ol class="carousel-indicators">
 								<li data-target="#carousel-example-generic" data-slide-to="0"
 									class="active"></li>
@@ -82,7 +79,7 @@
 								<li data-target="#carousel-example-generic" data-slide-to="2"></li>
 							</ol>
 
-							<!-- Wrapper for slides -->
+							Wrapper for slides
 							<div class="carousel-inner" role="listbox">
 								<div class="item active">
 									<img
@@ -120,7 +117,7 @@
 								...
 							</div>
 
-							<!-- Controls -->
+							Controls
 							<a class="left carousel-control" href="#carousel-example-generic"
 								role="button" data-slide="prev"> <span
 								class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -153,14 +150,14 @@
 
 		<div class="row">
 			<div id="featured-books" class="carousel slide" data-ride="carousel">
-				<!-- Indicators -->
+				Indicators
 				<ol class="carousel-indicators">
 					<li data-target="#featured-books" data-slide-to="0" class="active"></li>
 					<li data-target="#featured-books" data-slide-to="1"></li>
 					<li data-target="#featured-books" data-slide-to="2"></li>
 				</ol>
 
-				<!-- Wrapper for slides -->
+				Wrapper for slides
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
 						<img src="/image/shelf.png" class="img-responsive" />
@@ -239,7 +236,7 @@
 					</div>
 				</div>
 
-				<!-- Controls -->
+				Controls
 				<a class="left carousel-control" href="##featured-books"
 					role="button" data-slide="prev"> <span
 					class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -253,14 +250,14 @@
 		</div>
 
 	</div>
-	<!-- end of container -->
+	end of container
 
    
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    Bootstrap core JavaScript
+    ==================================================
+    Placed at the end of the document so the pages load faster
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
    
     <script src="/js/bootstrap.min.js"></script>
